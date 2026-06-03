@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 ussdking-sys
+Copyright (c) 2025 WIF Forensic Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,23 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+DISCLAIMER FOR SECURITY-CRITICAL USAGE:
+
+This software is provided for educational and personal wallet recovery purposes.
+The authors and contributors accept no responsibility for:
+
+- Funds lost due to misuse of this tool or incorrect interpretation of output
+- Private key exposure resulting from running this tool on a connected device
+- Any use of this tool for purposes other than recovery of keys you own
+
+You are solely responsible for:
+- Securing any private keys this tool helps you recover
+- Protecting the environment in which you run this tool
+- Understanding Bitcoin cryptography before relying on this tool's output
+- Verifying recovered keys against a trusted source (such as known addresses)
+
+Bitcoin private keys are master secrets with no recovery mechanism. Exercise
+extreme caution. Read SECURITY.md before using this tool.
